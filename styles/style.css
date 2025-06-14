@@ -22,13 +22,13 @@ a {
   color: inherit;
 }
 
-/* Header */
+/* Updated Header for white background and blue text */
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #154360;
-  color: #e9f7ef;
+  background-color: #ffffff; /* white background */
+  color: #154360; /* blue text */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,14 +36,15 @@ header {
   font-size: 1.6rem;
   font-weight: 700;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgb(21 64 96 / 0.4);
+  box-shadow: 0 2px 8px rgb(21 64 96 / 0.15); /* subtle shadow */
 }
 
+/* Blue burger menu */
 #menuBtn {
   background: none;
   border: none;
   font-size: 2rem;
-  color: #e9f7ef;
+  color: #154360; /* blue color */
   cursor: pointer;
   user-select: none;
   padding: 0 0.3rem;
@@ -52,7 +53,7 @@ header {
 
 #menuBtn:hover,
 #menuBtn:focus {
-  color: #85c1e9;
+  color: #2874a6; /* lighter blue on hover/focus */
   outline: none;
 }
 
